@@ -37,11 +37,10 @@ $time = round(time() / (60 * 15));
    <div class="container main-header">
     <div class="row">
       <div class="col-2-3">
-        
-
-        <h1>Help us plant the largest new native forest in England today!
-          <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#treesfortrees</a>
-        </h1>
+        <h1>Help us plant the largest new native forest in England today!</h1>
+        <div class="big hashtag"><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#HugATree</a></div>
+        Find a tree. Give it a hug. Take a pic. Post it using <div class="hashtag">#HugATree</div>   
+We’ll plant a tree for you to say thanks.
 
       </div>
       <a href="https://www.flickr.com/photos/137167713@N02/sets/72157660290507686" target="_blank" class="clickable"></a>
