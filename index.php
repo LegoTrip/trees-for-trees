@@ -31,8 +31,6 @@ $time = round(time() / (60 * 15));
       <a href="#" id="menu-icon">menu</a>
       <ul>
         <li><a href="#share-image">Share Your Pic</a></li>
-        <li><a href="https://www.flickr.com/photos/137167713@N02/sets/72157660290507686" target="_blank">See Your Pic</a></li>
-        <li><a href="#forest">Virtual Forest</a></li>
       </ul>
     </nav>
   </header>
