@@ -15,7 +15,7 @@
   <meta property="og:site_name" content="Trees for Trees">
   <meta property="og:type" content="website">
 
-  <link rel="stylesheet" href="http://images.treesfortrees.co.uk/css/style.css">
+  <link rel="stylesheet" href="http://images.treesfortrees.co.uk/hugatree/css/style.css">
   <link rel="icon" type="image/png" href="http://images.treesfortrees.co.uk/images/favicon.ico">
 
 </head>
@@ -37,7 +37,12 @@ $time = round(time() / (60 * 15));
    <div class="container main-header">
     <div class="row">
       <div class="col-2-3">
-        <h1>Help us plant a forest in a day <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#treesfortrees</a></h1>
+        
+
+        <h1>Help us plant the largest new native forest in England today!
+          <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#treesfortrees</a>
+        </h1>
+
       </div>
       <a href="https://www.flickr.com/photos/137167713@N02/sets/72157660290507686" target="_blank" class="clickable"></a>
     </div>
@@ -105,37 +110,7 @@ $time = round(time() / (60 * 15));
         <a href="mailto:?subject=Help%20us%20plant%20a%20forest%20in%20a%20day%20#treesfortrees&body=Help%20the%20Heart%20of%20England%20Forest%20plant%20a%20forest%20in%20a%20day%20by%20simply%20sharing%20a%20picture.%20Take%20part%20by%202nd%20November%20to%20have%20a%20chance%20to%20name%20the%20forest%20#treesfortrees%20www.treesfortrees.co.uk">Share via email</a>
       </div>
     </div>
-  </div>
-
-  <div class="container forest" id="forest">
-    <div class="row">
-      <div class="col-1 ">
-        <h3>You can get involved and get England growing again</h3>
-        <p>The below images show the virtual forest growing from your contributions as we plant the forest on the 2nd November. Click the image to see your pictures in full
-        </p>
-      </div>
-    </div>
-  </div>
-  <div class="container forest-image">  
-    <a href="https://www.flickr.com/photos/137167713@N02/sets/72157660290507686" target="_blank">
-      <img src="<?php echo $filename;?>?v=<?php echo $time ; ?>" />
-    </a>
-  </div>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-1">
-        <h3>Watch our <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#treesfortrees</a> video and see the Heart of England Forest</h3>
-      </div>
-    </div>
-  </div>
-  <div class="container video">
-    <div class="row">
-      <div class="col-1">         
-        <div class='embed-container'><iframe width="560" height="315" src="https://www.youtube.com/embed/3QziLWjLjA0" frameborder="0" allowfullscreen></iframe></div>
-      </div>
-    </div>
-  </div>
+  </div>   
 
   <div class="container footer">
     <div class="row">
