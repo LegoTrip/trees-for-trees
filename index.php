@@ -15,7 +15,7 @@
   <meta property="og:site_name" content="Trees for Trees">
   <meta property="og:type" content="website">
 
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="http://images.treesfortrees.co.uk/hugatree/css/style.css">
   <link rel="icon" type="image/png" href="http://images.treesfortrees.co.uk/images/favicon.ico">
 
 </head>
