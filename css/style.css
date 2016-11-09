@@ -392,6 +392,22 @@ nav ul li:nth-child(3) a {
     margin: auto
 }
 
+.didyouknow {
+    font-size: 0.7em;
+}
+
+.didyouknow h3 {
+    color: #669934;
+    font-size: 2.7em;
+    text-align: left;
+    padding:0 0.5em;
+}
+.didyouknow .col-1-2 {
+    font-size: 1.4em;
+    line-height: 1.3em;
+    padding:0 1em;
+}
+
 .container.share-friends {
     text-align: center;
     background: #85b752
@@ -489,7 +505,7 @@ nav ul li:nth-child(3) a {
     nav ul li {
         width: auto;
         border-bottom: none
-    }
+    }    
     .container.main-header {
         padding: 20px 20px 10px 20px;  
         background-position: center;
@@ -512,6 +528,9 @@ nav ul li:nth-child(3) a {
         font-family: 'Lato', sans-serif;
         font-weight: 400;
     }    
+    .didyouknow {
+        font-size: 1em;
+    }
 }
 
 @media screen and (min-width: 715px) {
@@ -546,11 +565,18 @@ nav ul li:nth-child(3) a {
     .col-1-5 {
         width: 20%
     }
+    .col-2-3 {
+        width: 66.66%;
+    }
+
     .col-1-8 {
         width: 12.5%
     }
     .col-6-8 {
         width: 75%
+    }
+    nav ul li a {
+        padding: 19px 55px;
     }
     .logo {
         width: 170px
