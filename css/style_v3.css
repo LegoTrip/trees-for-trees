@@ -400,6 +400,11 @@ nav ul li:nth-child(3) a {
     margin-top:10px;
 }
 
+.hugtree {
+    padding-left:1em;
+    margin-top: 1em;
+}
+
 .container.share-image .share {
     margin-bottom: 1em;
     padding-right: 0
@@ -558,10 +563,6 @@ nav ul li:nth-child(3) a {
     }    
     .didyouknow {
         font-size: 1em;
-    }
-    .hugtree {
-        padding-left:1em;
-        margin-top: 1em;
     }
 }
 
