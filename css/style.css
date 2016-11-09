@@ -14,7 +14,29 @@
     font-style: normal
 }
 
-@import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+@font-face {
+    font-family: 'LatoWebBold';
+    src: url('../fonts/Lato/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato/Lato-Bold.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'LatoWeb';
+    src: url('../fonts/Lato/Lato-Regular.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato/Lato-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato/Lato-Regular.woff2') format('woff2'), /* Modern Browsers */
+         url('../fonts/Lato/Lato-Regular.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
 
 *,
 *:after,
@@ -291,7 +313,7 @@ nav ul li:nth-child(3) a {
     -o-background-size: cover;
     height: 350px;
     color: white;
-    font-family: 'Lato', sans-serif;
+    font-family: 'LatoWeb', sans-serif !important; /* for devices */
     background-position: top right;
 }
 
@@ -345,7 +367,7 @@ nav ul li:nth-child(3) a {
   display: inline-block;
   padding: 0.3em 0.1em 0.5em;
   margin-bottom: 0.15em;
-  font-family: 'Lato', sans-serif;
+  font-family: 'LatoWebBold', sans-serif !important; /* for devices */
   font-weight: bold;
 }
 
@@ -525,7 +547,7 @@ nav ul li:nth-child(3) a {
     .container.main-header .row h1 {
         margin-bottom: 0.3em;
         font-size: 1.1em;
-        font-family: 'Lato', sans-serif;
+        font-family: 'LatoWeb', sans-serif !important; /* for devices */
         font-weight: 400;
     }    
     .didyouknow {
@@ -598,7 +620,8 @@ nav ul li:nth-child(3) a {
         font-size: 2.3em;
     }
     .big.hashtag {
-        font-size: 6.5em;
+        font-size: 6em;
+
     }   
     .copyshrink {
         margin-top: 10px;
@@ -617,6 +640,9 @@ nav ul li:nth-child(3) a {
     .container.main-header {
         padding: 20px 90px;
     }
+    .big.hashtag {
+        font-size: 6.5em;
+    }   
 }
 
 @media screen and (min-width: 998px) {

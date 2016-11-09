@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
+  
   <title>Trees for Trees</title>
   <meta charset="UTF-8">
   <meta name="description" content="">
@@ -15,7 +15,7 @@
   <meta property="og:site_name" content="Trees for Trees">
   <meta property="og:type" content="website">
 
-  <link rel="stylesheet" href="http://images.treesfortrees.co.uk/hugatree/css/style.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="icon" type="image/png" href="http://images.treesfortrees.co.uk/images/favicon.ico">
 
 </head>
@@ -36,37 +36,72 @@ $time = round(time() / (60 * 15));
   </header>
    <div class="container main-header">
     <div class="row">
-      <div class="col-2-3">
-        <h1>Help us plant the largest new native forest in England today!</h1>
-        <div class="big hashtag"><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#HugATree</a></div>
-        Find a tree. Give it a hug. Take a pic. Post it using <div class="hashtag">#HugATree</div>   
-We’ll plant a tree for you to say thanks.
+      
+        <h1>Help us plant the largest new<br />native forest in England today!</h1>
+        <div class="big hashtag"><a href="https://twitter.com/search?f=tweets&vertical=default&q=%23HugATree&src=typd" target="_blank">#HugATree</a></div>
+        <div class="header-copy">
+        Find a tree. Give it a hug. Take a pic.<br />
+        Post it using <span class="hashtag">#HugATree</span><br />
+        <div class="copyshrink">We’ll plant a tree for you to say thanks.</div>
+   
 
       </div>
-      <a href="https://www.flickr.com/photos/137167713@N02/sets/72157660290507686" target="_blank" class="clickable"></a>
+      <!--a href="https://www.flickr.com/photos/137167713@N02/sets/72157660290507686" target="_blank" class="clickable"></a--><!--HEYA-->
     </div>
    </div>
    <div class="container">
     <div class="row">
       <div class="col-1">
-        <h2>Help plant 10,000 trees in a single day</h2>
+        <h2>Help us reverse deforestation in England by hugging a tree! </h2>
       </div>
     </div>
     <div class="row">
       <div class="col-2-3">
-        <p>At the Heart of England Forest, we love trees – it’s why we’re planning to plant a whole forest in a day. That’s an incredible 10,000 new trees growing right in the middle of England! We’re doing this to raise awareness of the lack of woodland coverage in England. <strong>But we need your help</strong>.
+        <p>At Dennis we love trees  - it’s why we’re helping to raise awareness of the lack of woodland coverage in England with our #HugATree campaign thanks to the Heart of England Forest. And we need your help...</strong>
         </p>
-        <p>Simply share a picture or a photo of a tree with <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#treesfortrees</a> (or <a href="https://twitter.com/search?f=tweets&q=%23treesfortreesNYC&src=typd" target="_blank">#treesfortreesNYC</a> if you are in the U.S.) using any of the options below and we’ll plant a tree for you on 2nd November 2015. It’s as easy as a click, a tap or a tweet – one message and you’ll help make England a greener, more beautiful place.
+        <p>On Thursday 10th November, as part of Do It Day - in association with The Drum – we are asking everyone to show how much they love trees too, by sharing their pictures of them hugging trees on social media using #HugATree. For every picture posted, we’ll plant a tree in the Heart of England Forest for you. 
         </p>
-        <div class="box">  
+        <!--div class="box">  
           <h4>Plus, one lucky contributor will be selected to name the forest!</h4>
           <p>So do something amazing today - be a part of the <a href="https://twitter.com/search?f=tweets&vertical=default&q=%23treesfortrees&src=typd" target="_blank">#treesfortrees</a> campaign and watch the virtual forest below grow as we plant your forest on the day.
           </p>
-        </div>
+        </div-->
       </div>
       <div class="col-1-3">
-        <img src="http://images.treesfortrees.co.uk/images/planting-tree.jpg" />
+        <img src="http://images.treesfortrees.co.uk/hugatree/images/hugging-tree.jpg" />
       </div>
+    </div>
+  </div>
+
+  <div class="container didyouknow">
+    <div class="row">
+      <div class="col-2-3">
+          <h3>Did you know? </h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-1-2">
+        1.  A single mature tree produces enough oxygen back into the atmosphere each year to support 2 human beings.<br /><br />
+
+2.  Trees enhance biodiversity. A mature oak can host up to 5,000 different species of invertebrate - forming the basis for a healthy food chain that benefits birds and mammals.<br /><br />
+
+3.  One person causes about 10 tons of carbon dioxide to be emitted a year. One tree removes about 1 ton of CO2 per year.<br /><br />
+
+4.  Wooded environments are known to calm people, relieve stress and proven to improve mental health and wellbeing.<br /><br />
+
+5.  Trees absorb and block sound, reducing noise pollution by as much as 40 percent.<br /><br />
+
+6.  By cooling the air and ground around them, the shade from trees helps cool the Earth's temperature
+      </div>
+      <div class="col-1-2">
+        7.  A fully-grown Oak in the UK grows - and sheds - 250,000 leaves every year and produces around 50,000 acorns in a good year.<br /><br />
+
+8.  An oak spends 300 years growing, 300 years resting and 300 years declining gracefully.<br /><br />
+
+9.  Planting a variety of trees and shrubs can help to improve the resilience of our land. This supports our woods and trees, helping them bounce back from threats such as climate change, tree pests and disease.
+<br /><br />
+10. Trees help prevent flooding. Tree canopies slow down the rate at which rainwater reaches the ground while tree roots act effectively suck rainwater deeper underground, which is then released slowly.<br /><br />
+      </div>      
     </div>
   </div>
 
@@ -119,7 +154,7 @@ We’ll plant a tree for you to say thanks.
         </a>
       </div>
       <div class="col-6-8">
-        <h4><a href="http://www.heartofenglandforest.com/" target="_blank">© 2015 The Heart of England Forest</a></h4>
+        <h4><a href="http://www.heartofenglandforest.com/" target="_blank">© 2016 The Heart of England Forest</a></h4>
         <p>The Heart of England Forest is a charity registered by the Charity Commission for England and Wales (no. 1097110) and a company limited by guarantee registered in England (no. 04309564) whose registered office is 9-11 Kingly Street, London. W1B 5PN.
         </p>
         <a href="http://www.heartofenglandforest.com/">www.heartofenglandforest.com</a>  |  
